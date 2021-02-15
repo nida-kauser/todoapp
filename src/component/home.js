@@ -26,9 +26,9 @@ class Home extends Component {
           <tbody>
             {this.tasklist.map((item, index) => (
               <tr key={index}>
-                <td scope="col"> {index}</td>
-                <td scope="col">{item.taskname}</td>
-                <td scope="col">{item.taskdescription}</td>
+                <td > {index}</td>
+                <td >{item.taskname}</td>
+                <td >{item.taskdescription}</td>
               </tr>
             ))}
           </tbody>
