@@ -52,7 +52,8 @@ input[type=text] {
   margin-top: 4vw;
 }
  td{
-   width:30%;
+  width: 30%;
+  height: 7vw;
  }
 
 @media screen and (max-width:900px){
