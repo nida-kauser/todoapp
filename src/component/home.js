@@ -24,13 +24,14 @@ class Home extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.tasklist.map((item, index) => (
+            {this.tasklist != null && this.tasklist.map((item, index) => (
               <tr key={index}>
                 <td > {index}</td>
                 <td >{item.taskname}</td>
                 <td >{item.taskdescription}</td>
               </tr>
             ))}
+            
           </tbody>
         </table>
       </div>
