@@ -84,7 +84,7 @@ componentDidMount(){
             Add
           </button>
          
-       
+       <div className = "viewtable">
        
           <table className="table">
               <thead>
@@ -100,8 +100,8 @@ componentDidMount(){
                return (
                   <tr key={item.id}>
                    
-                    <td >{item.taskname}</td>
-                    <td >{item.taskdescription}</td>
+                    <td scope="col">{item.taskname}</td>
+                    <td scope="col">{item.taskdescription}</td>
                     <td>
                     <button
                     className="button"
@@ -118,7 +118,7 @@ componentDidMount(){
               </tbody>
             </table>
        
-       
+            </div>
         </div>
       </div>
     );
