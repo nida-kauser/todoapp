@@ -100,8 +100,8 @@ componentDidMount(){
                return (
                   <tr key={item.id}>
                    
-                    <td scope="col">{item.taskname}</td>
-                    <td scope="col">{item.taskdescription}</td>
+                    <td >{item.taskname}</td>
+                    <td >{item.taskdescription}</td>
                     <td>
                     <button
                     className="button"
