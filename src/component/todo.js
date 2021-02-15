@@ -83,7 +83,7 @@ componentDidMount(){
             placeholder="Add Task Description"
             ref={this.taskdescription}
           ></input>
-          <button onClick={this.addTask} className="button">
+          <button onClick={this.addTask} className="button btnadd">
             Add
           </button>
          

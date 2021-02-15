@@ -49,6 +49,9 @@ table {
   max-height: 400px;
   overflow-y: auto;
 }
+.btnadd{
+  margin-right: 45px;
+}
 
 .viewtable {
   max-height: 400px;
