@@ -49,8 +49,8 @@ function Header()  {
           unmountOnExit
         >
           <nav className="Nav">
-            <a href="/">Home</a>
-            <a href="/todo">Manage Todo</a>
+            <a href="/home">Home</a>
+            <a href="/">Manage Todo</a>
             <div className="dropdown">
     <button className="dropbtn">Social Handle
       <i className="fa fa-caret-down"></i>

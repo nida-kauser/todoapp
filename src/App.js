@@ -11,8 +11,8 @@ function App() {
    <div>
      <Header/>
      <Switch>
-         <Route exact path='/' component={Home} />
-         <Route path='/todo' component={Todo} />
+         <Route exact path='/home' component={Home} />
+         <Route path='/' component={Todo} />
         
      </Switch>
    </div>
