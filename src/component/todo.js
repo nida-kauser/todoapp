@@ -26,14 +26,17 @@ class Todo extends Component {
       const list = [];
       list.push(Items);
       localStorage.setItem("list", JSON.stringify(list));
+     
     } else {
       const list = JSON.parse(localStorage.getItem("list"));
       list.push(Items);
       localStorage.setItem("list", JSON.stringify(list));
+      
     }
     this.setState({
       list: JSON.parse(localStorage.getItem("list")),
     });
+    window.location.reload();
   };
 
   gettasklist =() => {

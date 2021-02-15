@@ -42,6 +42,7 @@ input[type="text"] {
   text-align: center;
   box-shadow: 0 8px 6px -6px black;
   margin: 8vw;
+  margin-top: 12vw;
 }
 table {
   width: 100%;
