@@ -66,6 +66,7 @@
     background: none;
     outline: none;
     transition: 0.1s;
+    margin-top: 3vw;
   }
   .Burger:active {
     transform: scale(1.2);

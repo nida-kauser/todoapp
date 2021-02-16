@@ -24,11 +24,13 @@ class Todo extends Component {
 
     if (localStorage.getItem("list") == null) {
       const list = [];
+      if(Items.taskname !== "" && Items.taskdescription !== "")
       list.push(Items);
       localStorage.setItem("list", JSON.stringify(list));
      
     } else {
       const list = JSON.parse(localStorage.getItem("list"));
+      if(Items.taskname !== "" && Items.taskdescription !== "")
       list.push(Items);
       localStorage.setItem("list", JSON.stringify(list));
       
